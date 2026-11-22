@@ -1,6 +1,8 @@
 # Demo runbook
 
-How to get the fabric ready and run the live demo. Every command runs on the
+How to get the fabric ready and run the live demo. Part of the runbook set in
+[docs/README.md](README.md); build and test procedures are in
+[build-runbook.md](build-runbook.md) and [test-runbook.md](test-runbook.md). Every command runs on the
 OOB server from `~/ai-fabric`. Type or paste one line at a time.
 
 ## The day before
