@@ -1,0 +1,895 @@
+{
+  "format": "JSON",
+  "ztp": null,
+  "content": {
+    "nodes": {
+      "Leaf1": {
+        "cpu": 2,
+        "memory": 4096,
+        "storage": 20,
+        "positioning": {
+          "x": 275,
+          "y": 550
+        },
+        "nic_model": "virtio",
+        "cpu_mode": "custom",
+        "cpu_options": [],
+        "secureboot": false,
+        "os": "cumulus-vx-5.18.3",
+        "labels": {
+          "group": "SWITCH",
+          "model": "SN3700"
+        },
+        "management_interfaces": {
+          "eth0": {
+            "ip": "192.168.200.2",
+            "mac_address": "48:B0:2D:00:00:00"
+          }
+        },
+        "oob": false,
+        "storage_pci": null,
+        "pxehost": false,
+        "boot": "hd",
+        "features": {
+          "uefi": false
+        }
+      },
+      "Leaf2": {
+        "cpu": 2,
+        "memory": 4096,
+        "storage": 20,
+        "positioning": {
+          "x": 825,
+          "y": 550
+        },
+        "nic_model": "virtio",
+        "cpu_mode": "custom",
+        "cpu_options": [],
+        "secureboot": false,
+        "os": "cumulus-vx-5.18.3",
+        "labels": {
+          "group": "SWITCH",
+          "model": "SN3700"
+        },
+        "management_interfaces": {
+          "eth0": {
+            "ip": "192.168.200.3",
+            "mac_address": "48:B0:2D:00:02:58"
+          }
+        },
+        "oob": false,
+        "storage_pci": null,
+        "pxehost": false,
+        "boot": "hd",
+        "features": {
+          "uefi": false
+        }
+      },
+      "Leaf3": {
+        "cpu": 2,
+        "memory": 4096,
+        "storage": 20,
+        "positioning": {
+          "x": 1375,
+          "y": 550
+        },
+        "nic_model": "virtio",
+        "cpu_mode": "custom",
+        "cpu_options": [],
+        "secureboot": false,
+        "os": "cumulus-vx-5.18.3",
+        "labels": {
+          "group": "SWITCH",
+          "model": "SN3700"
+        },
+        "management_interfaces": {
+          "eth0": {
+            "ip": "192.168.200.4",
+            "mac_address": "48:B0:2D:00:04:B0"
+          }
+        },
+        "oob": false,
+        "storage_pci": null,
+        "pxehost": false,
+        "boot": "hd",
+        "features": {
+          "uefi": false
+        }
+      },
+      "Leaf4": {
+        "cpu": 2,
+        "memory": 4096,
+        "storage": 20,
+        "positioning": {
+          "x": 1925,
+          "y": 550
+        },
+        "nic_model": "virtio",
+        "cpu_mode": "custom",
+        "cpu_options": [],
+        "secureboot": false,
+        "os": "cumulus-vx-5.18.3",
+        "labels": {
+          "group": "SWITCH",
+          "model": "SN3700"
+        },
+        "management_interfaces": {
+          "eth0": {
+            "ip": "192.168.200.5",
+            "mac_address": "48:B0:2D:00:07:08"
+          }
+        },
+        "oob": false,
+        "storage_pci": null,
+        "pxehost": false,
+        "boot": "hd",
+        "features": {
+          "uefi": false
+        }
+      },
+      "Leaf5": {
+        "cpu": 2,
+        "memory": 4096,
+        "storage": 20,
+        "positioning": {
+          "x": 2475,
+          "y": 550
+        },
+        "nic_model": "virtio",
+        "cpu_mode": "custom",
+        "cpu_options": [],
+        "secureboot": false,
+        "os": "cumulus-vx-5.18.3",
+        "labels": {
+          "group": "SWITCH",
+          "model": "SN3700"
+        },
+        "management_interfaces": {
+          "eth0": {
+            "ip": "192.168.200.6",
+            "mac_address": "48:B0:2D:00:09:60"
+          }
+        },
+        "oob": false,
+        "storage_pci": null,
+        "pxehost": false,
+        "boot": "hd",
+        "features": {
+          "uefi": false
+        }
+      },
+      "Server1": {
+        "cpu": 2,
+        "memory": 4096,
+        "storage": 100,
+        "positioning": {
+          "x": 550,
+          "y": 825
+        },
+        "nic_model": "virtio",
+        "cpu_mode": "custom",
+        "cpu_options": [],
+        "secureboot": false,
+        "os": "generic/ubuntu2404",
+        "labels": {
+          "group": "SERVER",
+          "model": "ubuntu-server"
+        },
+        "management_interfaces": {
+          "eth0": {
+            "ip": "192.168.200.7",
+            "mac_address": "48:B0:2D:00:0B:B8"
+          }
+        },
+        "oob": false,
+        "storage_pci": null,
+        "pxehost": false,
+        "boot": "hd",
+        "features": {
+          "uefi": false
+        }
+      },
+      "Server2": {
+        "cpu": 2,
+        "memory": 4096,
+        "storage": 100,
+        "positioning": {
+          "x": 1100,
+          "y": 825
+        },
+        "nic_model": "virtio",
+        "cpu_mode": "custom",
+        "cpu_options": [],
+        "secureboot": false,
+        "os": "generic/ubuntu2404",
+        "labels": {
+          "group": "SERVER",
+          "model": "ubuntu-server"
+        },
+        "management_interfaces": {
+          "eth0": {
+            "ip": "192.168.200.8",
+            "mac_address": "48:B0:2D:00:0E:10"
+          }
+        },
+        "oob": false,
+        "storage_pci": null,
+        "pxehost": false,
+        "boot": "hd",
+        "features": {
+          "uefi": false
+        }
+      },
+      "Server3": {
+        "cpu": 2,
+        "memory": 4096,
+        "storage": 100,
+        "positioning": {
+          "x": 1650,
+          "y": 825
+        },
+        "nic_model": "virtio",
+        "cpu_mode": "custom",
+        "cpu_options": [],
+        "secureboot": false,
+        "os": "generic/ubuntu2404",
+        "labels": {
+          "group": "SERVER",
+          "model": "ubuntu-server"
+        },
+        "management_interfaces": {
+          "eth0": {
+            "ip": "192.168.200.9",
+            "mac_address": "48:B0:2D:00:10:68"
+          }
+        },
+        "oob": false,
+        "storage_pci": null,
+        "pxehost": false,
+        "boot": "hd",
+        "features": {
+          "uefi": false
+        }
+      },
+      "Server4": {
+        "cpu": 2,
+        "memory": 4096,
+        "storage": 100,
+        "positioning": {
+          "x": 2200,
+          "y": 825
+        },
+        "nic_model": "virtio",
+        "cpu_mode": "custom",
+        "cpu_options": [],
+        "secureboot": false,
+        "os": "generic/ubuntu2404",
+        "labels": {
+          "group": "SERVER",
+          "model": "ubuntu-server"
+        },
+        "management_interfaces": {
+          "eth0": {
+            "ip": "192.168.200.10",
+            "mac_address": "48:B0:2D:00:12:C0"
+          }
+        },
+        "oob": false,
+        "storage_pci": null,
+        "pxehost": false,
+        "boot": "hd",
+        "features": {
+          "uefi": false
+        }
+      },
+      "Spine1": {
+        "cpu": 6,
+        "memory": 4096,
+        "storage": 20,
+        "positioning": {
+          "x": 550,
+          "y": 275
+        },
+        "nic_model": "virtio",
+        "cpu_mode": "custom",
+        "cpu_options": [],
+        "secureboot": false,
+        "os": "cumulus-vx-5.18.3",
+        "labels": {
+          "group": "SWITCH",
+          "model": "SN6810"
+        },
+        "management_interfaces": {
+          "eth0": {
+            "ip": "192.168.200.11",
+            "mac_address": "48:B0:2D:00:15:18"
+          }
+        },
+        "oob": false,
+        "storage_pci": null,
+        "pxehost": false,
+        "boot": "hd",
+        "features": {
+          "uefi": false
+        }
+      },
+      "Spine2": {
+        "cpu": 6,
+        "memory": 4096,
+        "storage": 20,
+        "positioning": {
+          "x": 1100,
+          "y": 275
+        },
+        "nic_model": "virtio",
+        "cpu_mode": "custom",
+        "cpu_options": [],
+        "secureboot": false,
+        "os": "cumulus-vx-5.18.3",
+        "labels": {
+          "group": "SWITCH",
+          "model": "SN6810"
+        },
+        "management_interfaces": {
+          "eth0": {
+            "ip": "192.168.200.12",
+            "mac_address": "48:B0:2D:00:17:70"
+          }
+        },
+        "oob": false,
+        "storage_pci": null,
+        "pxehost": false,
+        "boot": "hd",
+        "features": {
+          "uefi": false
+        }
+      },
+      "Spine3": {
+        "cpu": 6,
+        "memory": 4096,
+        "storage": 20,
+        "positioning": {
+          "x": 1650,
+          "y": 275
+        },
+        "nic_model": "virtio",
+        "cpu_mode": "custom",
+        "cpu_options": [],
+        "secureboot": false,
+        "os": "cumulus-vx-5.18.3",
+        "labels": {
+          "group": "SWITCH",
+          "model": "SN6810"
+        },
+        "management_interfaces": {
+          "eth0": {
+            "ip": "192.168.200.13",
+            "mac_address": "48:B0:2D:00:19:C8"
+          }
+        },
+        "oob": false,
+        "storage_pci": null,
+        "pxehost": false,
+        "boot": "hd",
+        "features": {
+          "uefi": false
+        }
+      },
+      "Spine4": {
+        "cpu": 6,
+        "memory": 4096,
+        "storage": 20,
+        "positioning": {
+          "x": 2200,
+          "y": 275
+        },
+        "nic_model": "virtio",
+        "cpu_mode": "custom",
+        "cpu_options": [],
+        "secureboot": false,
+        "os": "cumulus-vx-5.18.3",
+        "labels": {
+          "group": "SWITCH",
+          "model": "SN6810"
+        },
+        "management_interfaces": {
+          "eth0": {
+            "ip": "192.168.200.14",
+            "mac_address": "48:B0:2D:00:1C:20"
+          }
+        },
+        "oob": false,
+        "storage_pci": null,
+        "pxehost": false,
+        "boot": "hd",
+        "features": {
+          "uefi": false
+        }
+      }
+    },
+    "links": [
+      [
+        {
+          "interface": "swp1",
+          "node": "Leaf1",
+          "mac": "48:B0:2D:00:00:01"
+        },
+        {
+          "interface": "swp1",
+          "node": "Spine1",
+          "mac": "48:B0:2D:00:15:19"
+        }
+      ],
+      [
+        {
+          "interface": "swp2",
+          "node": "Leaf1",
+          "mac": "48:B0:2D:00:00:02"
+        },
+        {
+          "interface": "swp1",
+          "node": "Spine2",
+          "mac": "48:B0:2D:00:17:71"
+        }
+      ],
+      [
+        {
+          "interface": "swp29",
+          "node": "Leaf1",
+          "mac": "48:B0:2D:00:00:03"
+        },
+        {
+          "interface": "eth1",
+          "node": "Server4",
+          "mac": "48:B0:2D:00:12:C1"
+        }
+      ],
+      [
+        {
+          "interface": "swp3",
+          "node": "Leaf1",
+          "mac": "48:B0:2D:00:00:04"
+        },
+        {
+          "interface": "swp1",
+          "node": "Spine3",
+          "mac": "48:B0:2D:00:19:C9"
+        }
+      ],
+      [
+        {
+          "interface": "swp30",
+          "node": "Leaf1",
+          "mac": "48:B0:2D:00:00:05"
+        },
+        {
+          "interface": "eth1",
+          "node": "Server3",
+          "mac": "48:B0:2D:00:10:69"
+        }
+      ],
+      [
+        {
+          "interface": "swp31",
+          "node": "Leaf1",
+          "mac": "48:B0:2D:00:00:06"
+        },
+        {
+          "interface": "eth1",
+          "node": "Server2",
+          "mac": "48:B0:2D:00:0E:11"
+        }
+      ],
+      [
+        {
+          "interface": "swp32",
+          "node": "Leaf1",
+          "mac": "48:B0:2D:00:00:07"
+        },
+        {
+          "interface": "eth1",
+          "node": "Server1",
+          "mac": "48:B0:2D:00:0B:B9"
+        }
+      ],
+      [
+        {
+          "interface": "swp4",
+          "node": "Leaf1",
+          "mac": "48:B0:2D:00:00:08"
+        },
+        {
+          "interface": "swp1",
+          "node": "Spine4",
+          "mac": "48:B0:2D:00:1C:21"
+        }
+      ],
+      [
+        {
+          "interface": "swp1",
+          "node": "Leaf2",
+          "mac": "48:B0:2D:00:02:59"
+        },
+        {
+          "interface": "swp2",
+          "node": "Spine1",
+          "mac": "48:B0:2D:00:15:1A"
+        }
+      ],
+      [
+        {
+          "interface": "swp2",
+          "node": "Leaf2",
+          "mac": "48:B0:2D:00:02:5A"
+        },
+        {
+          "interface": "swp2",
+          "node": "Spine2",
+          "mac": "48:B0:2D:00:17:72"
+        }
+      ],
+      [
+        {
+          "interface": "swp29",
+          "node": "Leaf2",
+          "mac": "48:B0:2D:00:02:5B"
+        },
+        {
+          "interface": "eth2",
+          "node": "Server4",
+          "mac": "48:B0:2D:00:12:C2"
+        }
+      ],
+      [
+        {
+          "interface": "swp3",
+          "node": "Leaf2",
+          "mac": "48:B0:2D:00:02:5C"
+        },
+        {
+          "interface": "swp2",
+          "node": "Spine3",
+          "mac": "48:B0:2D:00:19:CA"
+        }
+      ],
+      [
+        {
+          "interface": "swp30",
+          "node": "Leaf2",
+          "mac": "48:B0:2D:00:02:5D"
+        },
+        {
+          "interface": "eth2",
+          "node": "Server3",
+          "mac": "48:B0:2D:00:10:6A"
+        }
+      ],
+      [
+        {
+          "interface": "swp31",
+          "node": "Leaf2",
+          "mac": "48:B0:2D:00:02:5E"
+        },
+        {
+          "interface": "eth2",
+          "node": "Server2",
+          "mac": "48:B0:2D:00:0E:12"
+        }
+      ],
+      [
+        {
+          "interface": "swp32",
+          "node": "Leaf2",
+          "mac": "48:B0:2D:00:02:5F"
+        },
+        {
+          "interface": "eth2",
+          "node": "Server1",
+          "mac": "48:B0:2D:00:0B:BA"
+        }
+      ],
+      [
+        {
+          "interface": "swp4",
+          "node": "Leaf2",
+          "mac": "48:B0:2D:00:02:60"
+        },
+        {
+          "interface": "swp2",
+          "node": "Spine4",
+          "mac": "48:B0:2D:00:1C:22"
+        }
+      ],
+      [
+        {
+          "interface": "swp1",
+          "node": "Leaf3",
+          "mac": "48:B0:2D:00:04:B1"
+        },
+        {
+          "interface": "swp3",
+          "node": "Spine1",
+          "mac": "48:B0:2D:00:15:1B"
+        }
+      ],
+      [
+        {
+          "interface": "swp2",
+          "node": "Leaf3",
+          "mac": "48:B0:2D:00:04:B2"
+        },
+        {
+          "interface": "swp3",
+          "node": "Spine2",
+          "mac": "48:B0:2D:00:17:73"
+        }
+      ],
+      [
+        {
+          "interface": "swp29",
+          "node": "Leaf3",
+          "mac": "48:B0:2D:00:04:B3"
+        },
+        {
+          "interface": "eth3",
+          "node": "Server4",
+          "mac": "48:B0:2D:00:12:C3"
+        }
+      ],
+      [
+        {
+          "interface": "swp3",
+          "node": "Leaf3",
+          "mac": "48:B0:2D:00:04:B4"
+        },
+        {
+          "interface": "swp3",
+          "node": "Spine3",
+          "mac": "48:B0:2D:00:19:CB"
+        }
+      ],
+      [
+        {
+          "interface": "swp30",
+          "node": "Leaf3",
+          "mac": "48:B0:2D:00:04:B5"
+        },
+        {
+          "interface": "eth3",
+          "node": "Server3",
+          "mac": "48:B0:2D:00:10:6B"
+        }
+      ],
+      [
+        {
+          "interface": "swp31",
+          "node": "Leaf3",
+          "mac": "48:B0:2D:00:04:B6"
+        },
+        {
+          "interface": "eth3",
+          "node": "Server2",
+          "mac": "48:B0:2D:00:0E:13"
+        }
+      ],
+      [
+        {
+          "interface": "swp32",
+          "node": "Leaf3",
+          "mac": "48:B0:2D:00:04:B7"
+        },
+        {
+          "interface": "eth3",
+          "node": "Server1",
+          "mac": "48:B0:2D:00:0B:BB"
+        }
+      ],
+      [
+        {
+          "interface": "swp4",
+          "node": "Leaf3",
+          "mac": "48:B0:2D:00:04:B8"
+        },
+        {
+          "interface": "swp3",
+          "node": "Spine4",
+          "mac": "48:B0:2D:00:1C:23"
+        }
+      ],
+      [
+        {
+          "interface": "swp1",
+          "node": "Leaf4",
+          "mac": "48:B0:2D:00:07:09"
+        },
+        {
+          "interface": "swp4",
+          "node": "Spine1",
+          "mac": "48:B0:2D:00:15:1C"
+        }
+      ],
+      [
+        {
+          "interface": "swp2",
+          "node": "Leaf4",
+          "mac": "48:B0:2D:00:07:0A"
+        },
+        {
+          "interface": "swp4",
+          "node": "Spine2",
+          "mac": "48:B0:2D:00:17:74"
+        }
+      ],
+      [
+        {
+          "interface": "swp29",
+          "node": "Leaf4",
+          "mac": "48:B0:2D:00:07:0B"
+        },
+        {
+          "interface": "eth4",
+          "node": "Server4",
+          "mac": "48:B0:2D:00:12:C4"
+        }
+      ],
+      [
+        {
+          "interface": "swp3",
+          "node": "Leaf4",
+          "mac": "48:B0:2D:00:07:0C"
+        },
+        {
+          "interface": "swp4",
+          "node": "Spine3",
+          "mac": "48:B0:2D:00:19:CC"
+        }
+      ],
+      [
+        {
+          "interface": "swp30",
+          "node": "Leaf4",
+          "mac": "48:B0:2D:00:07:0D"
+        },
+        {
+          "interface": "eth4",
+          "node": "Server3",
+          "mac": "48:B0:2D:00:10:6C"
+        }
+      ],
+      [
+        {
+          "interface": "swp31",
+          "node": "Leaf4",
+          "mac": "48:B0:2D:00:07:0E"
+        },
+        {
+          "interface": "eth4",
+          "node": "Server2",
+          "mac": "48:B0:2D:00:0E:14"
+        }
+      ],
+      [
+        {
+          "interface": "swp32",
+          "node": "Leaf4",
+          "mac": "48:B0:2D:00:07:0F"
+        },
+        {
+          "interface": "eth4",
+          "node": "Server1",
+          "mac": "48:B0:2D:00:0B:BC"
+        }
+      ],
+      [
+        {
+          "interface": "swp4",
+          "node": "Leaf4",
+          "mac": "48:B0:2D:00:07:10"
+        },
+        {
+          "interface": "swp4",
+          "node": "Spine4",
+          "mac": "48:B0:2D:00:1C:24"
+        }
+      ],
+      [
+        {
+          "interface": "swp1",
+          "node": "Leaf5",
+          "mac": "48:B0:2D:00:09:61"
+        },
+        {
+          "interface": "swp5",
+          "node": "Spine1",
+          "mac": "48:B0:2D:00:15:1D"
+        }
+      ],
+      [
+        {
+          "interface": "swp2",
+          "node": "Leaf5",
+          "mac": "48:B0:2D:00:09:62"
+        },
+        {
+          "interface": "swp5",
+          "node": "Spine2",
+          "mac": "48:B0:2D:00:17:75"
+        }
+      ],
+      [
+        {
+          "interface": "swp29",
+          "node": "Leaf5",
+          "mac": "48:B0:2D:00:09:63"
+        },
+        {
+          "interface": "eth5",
+          "node": "Server4",
+          "mac": "48:B0:2D:00:12:C5"
+        }
+      ],
+      [
+        {
+          "interface": "swp3",
+          "node": "Leaf5",
+          "mac": "48:B0:2D:00:09:64"
+        },
+        {
+          "interface": "swp5",
+          "node": "Spine3",
+          "mac": "48:B0:2D:00:19:CD"
+        }
+      ],
+      [
+        {
+          "interface": "swp30",
+          "node": "Leaf5",
+          "mac": "48:B0:2D:00:09:65"
+        },
+        {
+          "interface": "eth5",
+          "node": "Server3",
+          "mac": "48:B0:2D:00:10:6D"
+        }
+      ],
+      [
+        {
+          "interface": "swp31",
+          "node": "Leaf5",
+          "mac": "48:B0:2D:00:09:66"
+        },
+        {
+          "interface": "eth5",
+          "node": "Server2",
+          "mac": "48:B0:2D:00:0E:15"
+        }
+      ],
+      [
+        {
+          "interface": "swp32",
+          "node": "Leaf5",
+          "mac": "48:B0:2D:00:09:67"
+        },
+        {
+          "interface": "eth5",
+          "node": "Server1",
+          "mac": "48:B0:2D:00:0B:BD"
+        }
+      ],
+      [
+        {
+          "interface": "swp4",
+          "node": "Leaf5",
+          "mac": "48:B0:2D:00:09:68"
+        },
+        {
+          "interface": "swp5",
+          "node": "Spine4",
+          "mac": "48:B0:2D:00:1C:25"
+        }
+      ]
+    ],
+    "oob": true
+  },
+  "name": "Brett's Ai Automated Deployment"
+}
